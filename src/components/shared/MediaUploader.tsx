@@ -57,7 +57,7 @@ const MediaUploader = ({
             uploadPreset='uncleanka_imagine_if'
             options={{
                 multiple: false,
-                resourceType: "Image",
+                resourceType: "image",
             }}
             onSuccess={onUploadSuccessHandler}
             onError={onUploadErrorHandler}
